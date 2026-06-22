@@ -46,8 +46,6 @@ page = st.sidebar.radio(
 # ==========================================
 
 if page == "About Project":
-
-```
     st.title("ℹ️ About This Project")
     
     st.markdown("""
@@ -80,7 +78,6 @@ if page == "About Project":
     
     MSc Computing
     """)
-```
 
 # ==========================================
 
