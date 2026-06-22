@@ -48,38 +48,38 @@ page = st.sidebar.radio(
 if page == "About Project":
 
 ```
-st.title("ℹ️ About This Project")
-
-st.markdown("""
-## Telecom Customer Churn Prediction System
-
-This project predicts whether a telecom customer is likely to leave
-the service provider using Machine Learning techniques.
-
-### Dataset
-Telecom Churn Dataset (BigML)
-
-### Algorithms Evaluated
-- Decision Tree
-- Random Forest
-- Support Vector Machine
-- Naive Bayes
-- K-Nearest Neighbors
-
-### Selected Model
-Random Forest Classifier
-
-### Model Performance
-- Accuracy: 92.54%
-- Precision: 93.13%
-- Recall: 92.54%
-- F1 Score: 91.36%
-
-### Developed By
-Dasun Jayaweera
-
-MSc Computing
-""")
+    st.title("ℹ️ About This Project")
+    
+    st.markdown("""
+    ## Telecom Customer Churn Prediction System
+    
+    This project predicts whether a telecom customer is likely to leave
+    the service provider using Machine Learning techniques.
+    
+    ### Dataset
+    Telecom Churn Dataset (BigML)
+    
+    ### Algorithms Evaluated
+    - Decision Tree
+    - Random Forest
+    - Support Vector Machine
+    - Naive Bayes
+    - K-Nearest Neighbors
+    
+    ### Selected Model
+    Random Forest Classifier
+    
+    ### Model Performance
+    - Accuracy: 92.54%
+    - Precision: 93.13%
+    - Recall: 92.54%
+    - F1 Score: 91.36%
+    
+    ### Developed By
+    Dasun Jayaweera
+    
+    MSc Computing
+    """)
 ```
 
 # ==========================================
